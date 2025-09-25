@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER CustomIP_EXTERNAL_FND_CNTR
+	OPTION supported_peripherals = (CustomIP_EXTERNAL_FND_CNTR);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = CustomIP_EXTERNAL_FND_CNTR;
+END DRIVER

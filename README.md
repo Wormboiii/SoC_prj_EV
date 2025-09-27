@@ -4,6 +4,6 @@ Check helloworld.c and CustomLibraries folder.
 
 --------------------------------------------------------------------------------------------------
 
-[IPs used here](https://github.com/Wormboiii/SoC_prj_EV_IP)
+[IPs used in this project](https://github.com/Wormboiii/SoC_prj_EV_IP)
 
 Vivado Works

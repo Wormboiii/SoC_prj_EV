@@ -1,9 +1,9 @@
-# 0 "/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_test4/hw/sdt/system-top.dts"
+# 0 "/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_Final/hw/sdt/system-top.dts"
 # 0 "<built-in>"
 # 0 "<command-line>"
-# 1 "/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_test4/hw/sdt/system-top.dts"
+# 1 "/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_Final/hw/sdt/system-top.dts"
 /dts-v1/;
-# 1 "/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_test4/hw/sdt/pl.dtsi" 1
+# 1 "/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_Final/hw/sdt/pl.dtsi" 1
 / {
  cpus_microblaze_riscv_0: cpus_microblaze_riscv@0 {
   #cpu-mask-cells = <1>;
@@ -311,6 +311,16 @@
    reg = <0x44a00000 0x10000>;
    xlnx,name = "CustomIP_STEPPER_0";
   };
+  CustomIP_TIMER_SEC_0: CustomIP_TIMER_SEC@44a70000 {
+   xlnx,s00-axi-data-width = <32>;
+   compatible = "xlnx,CustomIP-TIMER-SEC-1.0";
+   status = "okay";
+   xlnx,s00-axi-addr-width = <5>;
+   xlnx,ip-name = "CustomIP_TIMER_SEC";
+   xlnx,edk-iptype = "PERIPHERAL";
+   reg = <0x44a70000 0x10000>;
+   xlnx,name = "CustomIP_TIMER_SEC_0";
+  };
   axi_gpio_0: gpio@40000000 {
    xlnx,gpio-board-interface = "led_16bits";
    compatible = "xlnx,axi-gpio-2.0" , "xlnx,xps-gpio-1.00.a";
@@ -457,7 +467,7 @@
   };
  };
 };
-# 3 "/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_test4/hw/sdt/system-top.dts" 2
+# 3 "/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_Final/hw/sdt/system-top.dts" 2
 / {
  board = "basys3";
  compatible = "xlnx,basys3";
@@ -493,7 +503,8 @@
          <0x44a30000 &CustomIP_PWM_0 0x44a30000 0x10000>,
          <0x44a40000 &CustomIP_PWM_1 0x44a40000 0x10000>,
          <0x44a50000 &CustomIP_EXTERNAL_LE_0 0x44a50000 0x10000>,
-         <0x44a60000 &CustomIP_EXTERNAL_FN_0 0x44a60000 0x10000>;
+         <0x44a60000 &CustomIP_EXTERNAL_FN_0 0x44a60000 0x10000>,
+         <0x44a70000 &CustomIP_TIMER_SEC_0 0x44a70000 0x10000>;
   #ranges-address-cells = <0x1>;
   #ranges-size-cells = <0x1>;
  };

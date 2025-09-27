@@ -1,0 +1,17 @@
+# ninja log v5
+0	360	0	CMakeFiles/uartlite_example	ade2cfe0ef4a7bbd
+0	360	0	xuartlite_exlist.yaml	ade2cfe0ef4a7bbd
+0	360	0	/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_test4/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/uartlite_example	ade2cfe0ef4a7bbd
+0	360	0	/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_test4/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/xuartlite_exlist.yaml	ade2cfe0ef4a7bbd
+1	360	0	CMakeFiles/bram_example	4fa1404805734335
+1	360	0	xbram_exlist.yaml	4fa1404805734335
+1	360	0	/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_test4/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/bram_example	4fa1404805734335
+1	360	0	/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_test4/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/xbram_exlist.yaml	4fa1404805734335
+0	360	0	CMakeFiles/iic_example	489f72c935a5b6c4
+0	360	0	xiic_exlist.yaml	489f72c935a5b6c4
+0	360	0	/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_test4/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/iic_example	489f72c935a5b6c4
+0	360	0	/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_test4/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/xiic_exlist.yaml	489f72c935a5b6c4
+0	360	0	CMakeFiles/gpio_example	b36fc1eff8d9a96c
+0	360	0	xgpio_exlist.yaml	b36fc1eff8d9a96c
+0	360	0	/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_test4/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/gpio_example	b36fc1eff8d9a96c
+0	360	0	/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_test4/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/xgpio_exlist.yaml	b36fc1eff8d9a96c

@@ -1,4 +1,0 @@
-domain_path: /home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_test3/export/PF_SoC_EV_test3/sw/standalone_microblaze_riscv_0
-app_src_dir: /media/wonhyeok/data/XILINX/2025.1/Vitis/data/embeddedsw/lib/sw_apps/hello_world
-template: hello_world
-lang: c

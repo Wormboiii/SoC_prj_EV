@@ -161,18 +161,33 @@ drv_info:
     driver: gpio
     ip_name: axi_gpio
     path: /media/wonhyeok/data/XILINX/2025.1/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_12
+    examples:
+      xgpio_example.c: []
+      xgpio_low_level_example.c: []
+      xgpio_tapp_example.c: []
   axi_iic_0:
     driver: iic
     ip_name: axi_iic
     path: /media/wonhyeok/data/XILINX/2025.1/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/iic_v3_13
+    examples:
+      xiic_low_level_dynamic_eeprom_example.c: []
+      xiic_low_level_eeprom_example.c: []
+      xiic_low_level_tempsensor_example.c: []
+      xiic_selftest_example.c: []
   axi_uartlite_0:
     driver: uartlite
     ip_name: axi_uartlite
     path: /media/wonhyeok/data/XILINX/2025.1/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_11
+    examples:
+      xuartlite_low_level_example.c: []
+      xuartlite_polled_example.c: []
+      xuartlite_selftest_example.c: []
   microblaze_riscv_0_local_memory_dlmb_bram_if_cntlr:
     driver: bram
     ip_name: lmb_bram_if_cntlr
     path: /media/wonhyeok/data/XILINX/2025.1/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_12
+    examples:
+      xbram_example.c: []
 lib_info:
   xiltimer:
     path: /media/wonhyeok/data/XILINX/2025.1/Vitis/data/embeddedsw/lib/sw_services/xiltimer_v2_2

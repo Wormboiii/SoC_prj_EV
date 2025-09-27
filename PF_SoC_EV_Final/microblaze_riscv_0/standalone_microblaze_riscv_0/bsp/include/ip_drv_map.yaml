@@ -1,0 +1,36 @@
+CustomIP_EXTERNAL_BT_0:
+- CustomIP_EXTERNAL_BTN_CNTR
+- None
+CustomIP_EXTERNAL_FN_0:
+- CustomIP_EXTERNAL_FND_CNTR
+- None
+CustomIP_EXTERNAL_LE_0:
+- CustomIP_EXTERNAL_LED_CNTR
+- None
+CustomIP_PHOTO_INT_C_0:
+- CustomIP_PHOTO_INT_CNTR
+- None
+CustomIP_PWM_0:
+- CustomIP_PWM
+- None
+CustomIP_PWM_1:
+- CustomIP_PWM
+- None
+CustomIP_STEPPER_0:
+- CustomIP_STEPPER
+- None
+CustomIP_TIMER_SEC_0:
+- CustomIP_TIMER_SEC
+- None
+axi_gpio_0:
+- axi_gpio
+- gpio
+axi_iic_0:
+- axi_iic
+- iic
+axi_uartlite_0:
+- axi_uartlite
+- uartlite
+microblaze_riscv_0_local_memory_dlmb_bram_if_cntlr:
+- lmb_bram_if_cntlr
+- bram

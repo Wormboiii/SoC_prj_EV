@@ -1,0 +1,6 @@
+/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_test4/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/gpio_example.dir
+/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_test4/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/iic_example.dir
+/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_test4/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/uartlite_example.dir
+/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_test4/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/bram_example.dir
+/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_test4/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/edit_cache.dir
+/home/wonhyeok/VSC_works/Vitis_prj/PF_SoC_EV_test4/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/rebuild_cache.dir

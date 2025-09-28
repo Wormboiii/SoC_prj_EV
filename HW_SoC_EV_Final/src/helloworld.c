@@ -269,10 +269,15 @@ int main()
 
                     timer_target_sec(3);                                        // 닫히기 전까지 3초 대기
                     timer_on();                                                 // 타이머 카운팅 시작
-                    while(timer_instance[2] == 0);                              // 타이머 플래그 뜰 때까지 무한대기
+                    while(timer_instance[2] == 0) {                             // 타이머 플래그 뜰 때까지 무한대기
+                        btn_read();                                             // 버튼 값 읽으면서
+                        if(btn_door == 0b10) {                                  
+                            break;                                              // 닫힘버튼 누르면 3초 대기 안하고 바로 빠져나옴
+                        }
+                    }
                     timer_off();                                                // 카운팅 종료
                     servo_ccw();                                                // 문 닫기
-                }   
+                }      
             }
             else if(btn_floor == 0b001) {                   // 1층 대기열이 있으면
                 step_cw();                                  // 일단 밑으로 내려감
@@ -389,10 +394,15 @@ int main()
 
                     timer_target_sec(3);                                        // 닫히기 전까지 3초 대기
                     timer_on();                                                 // 타이머 카운팅 시작
-                    while(timer_instance[2] == 0);                              // 타이머 플래그 뜰 때까지 무한대기
+                    while(timer_instance[2] == 0) {                             // 타이머 플래그 뜰 때까지 무한대기
+                        btn_read();                                             // 버튼 값 읽으면서
+                        if(btn_door == 0b10) {                                  
+                            break;                                              // 닫힘버튼 누르면 3초 대기 안하고 바로 빠져나옴
+                        }
+                    }
                     timer_off();                                                // 카운팅 종료
                     servo_ccw();                                                // 문 닫기
-                }           
+                }              
             }
             else {
                 step_cw();
